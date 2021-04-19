@@ -1,13 +1,13 @@
 :root{
     --cinzaEscuro: #888888;
     --preto: #333333, 100%;
-    --verde: #51D275, 100%;
-    --laranja: #DC9730, 100%;
+    --verde: #51D275;
+    --laranja: #DC9730;
     --branco: #FFFFFF, 100%;
     --cinzaClaro: #EEEEEE, 100%;
     --blur: #C4C4C4, 50%;
     --setaBlur: rgba(141, 141, 141, 0.62);
-    ;
+    --cinzaTexto: #555555;
 }
 
 *{
@@ -72,4 +72,51 @@ main{
 
 .button-arrow.-right{
     right: 70px;
+}
+
+.products{
+    display: flex;
+    justify-content: space-between;
+}
+
+.oferta{
+    width: 500px;
+    padding: 70px 72px 0 72px;
+}
+
+.descricao{
+    background-color: var(--cinzaClaro);
+    padding: 0 72px 0 72px;
+}
+
+.preco{
+    font-size: 40px;
+    color: var(--cinzaEscuro);
+}
+
+.valor{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0 15px 0;
+}
+
+.tag{
+    color: #fff;
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 3px 15px 3px 15px;
+    border: none;
+}
+
+.tag.-verde{
+    background-color: var(--verde);
+}
+
+.tag.-laranja{
+    background-color: var(--laranja);
+}
+
+article p{
+    text-align: justify;
+    color: var(--cinzaTexto);
 }
