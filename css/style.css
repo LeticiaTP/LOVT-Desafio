@@ -232,3 +232,15 @@ footer article div p {
 .social-icons img:nth-child(2) {
     margin: 0 25px;
 }
+
+.dark-mode {
+    background-color: #2a2a2e;
+}
+
+.header-darkmode {
+    background-color: #000;
+}
+
+.footer-darkmode {
+    background-color: #000;
+}
