@@ -165,11 +165,32 @@ article p{
 }
 
 footer{
-    background-color: var(--preto);
     display: flex;
     justify-content: space-between;
+    padding: 60px 80px;
+    background-color: var(--preto);
 }
 
-footer p{
-    color: #FFFFFF;
+footer .mapa {
+    width: 400px;
+}
+
+footer article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #FFF;
+}
+
+.contatos{
+    color: #fff;
+}
+
+footer article div p {
+    margin-bottom: 10px;
+    color: #FFF;
+}
+
+.social-icons img:nth-child(2) {
+    margin: 0 25px;
 }
