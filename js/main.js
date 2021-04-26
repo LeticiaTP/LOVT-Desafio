@@ -11,7 +11,7 @@
 // let elementHeader = document.querySelector('header .saudacao'); //seleciona o elemento html
 // elementHeader.innerText = `Olá, ${nomeUsuario}!`; //atribui conteúdo ao elemento selecionado
 
-// let logo = document.getElementById('logo-img');
+// let logo = document.getElementById('logo');
 // console.log(logo);
 
 // logo.style.color = "orange";
