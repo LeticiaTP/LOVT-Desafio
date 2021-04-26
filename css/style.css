@@ -122,25 +122,46 @@ article p{
     color: var(--cinzaTexto);
 }
 
+.categorias {
+    width: 100%;
+    margin-top: 20px;
+    padding: 40px 0;
+    color: #FFF;
+    opacity: 0.6;
+    text-align: center;
+}
+
 .your-style{
     font-size: 40px;
     color: var(--cinzaEscuro);
-    padding: 70px;   
+    margin: 15px;  
 }
 
 .industrial{
     background-image: url(/img/Rectangle11.svg);
-    color: #FFFFFF;
+    background-size: cover;
+    font-size: 40px;
+    margin: 20px;
+    padding: 35px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
 }
 
 .modern{
     background-image: url(/img/Rectangle12.svg);
-    color: #FFFFFF;
+    background-size: cover;
+    font-size: 40px;
+    margin: 20px;
+    padding: 35px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25); 
 }
 
 .classic{
     background-image: url(/img/Rectangle13.svg);
-    color: #FFFFFF;
+    background-size: cover;
+    font-size: 40px;
+    margin: 20px;
+    padding: 35px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25); 
 }
 
 footer{
