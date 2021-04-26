@@ -1,6 +1,6 @@
 :root{
     --cinzaEscuro: #888888;
-    --preto: #333333, 100%;
+    --preto: #333333;
     --verde: #51D275;
     --laranja: #DC9730;
     --branco: #FFFFFF, 100%;
@@ -119,4 +119,35 @@ main{
 article p{
     text-align: justify;
     color: var(--cinzaTexto);
+}
+
+.your-style{
+    font-size: 40px;
+    color: var(--cinzaEscuro);
+    padding: 70px;   
+}
+
+.industrial{
+    background-image: url(/img/Rectangle11.svg);
+    color: #FFFFFF;
+}
+
+.modern{
+    background-image: url(/img/Rectangle12.svg);
+    color: #FFFFFF;
+}
+
+.classic{
+    background-image: url(/img/Rectangle13.svg);
+    color: #FFFFFF;
+}
+
+footer{
+    background-color: var(--preto);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    color: #FFFFFF;
 }

@@ -1,0 +1,1 @@
+console.log('JS externo funcionou uhuuu!')
