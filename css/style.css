@@ -283,3 +283,49 @@ form button:hover{
     font-size: 30px;
     color: var(--cinzaEscuro);
 }
+
+/* Modal */
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    background-color: white;
+    width: 60%;
+    min-width: 300px;
+    padding: 40px;
+}
+
+.close-btn {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--cinzaTexto);
+    border: none;
+}
+
+.close-btn:hover {
+    color: var(--preto);
+    cursor: pointer;
+}
+
+.titulo-modal {
+    text-align: center;
+}
+
+.cadastrar {
+    margin: 0 auto;
+    display: block;
+    background-color: #d8860b;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-size: 10px;
+    cursor: pointer;
+}

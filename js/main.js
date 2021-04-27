@@ -45,3 +45,11 @@ formContact.addEventListener("submit", (evento) => {
     }
 
 });
+
+setTimeout( () => {
+    document.querySelector('div.modal-container').style.display = 'flex'
+}, 3000);
+
+const plin = () => {
+    document.querySelector('div.modal-container').style.display = 'none'
+}
