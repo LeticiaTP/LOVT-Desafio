@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
-
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -17,19 +17,16 @@
                 <h1 id="logo">LOVT</h1>
                 <h2>You Love, <br>
                     your loft!</h2>
-            </div>
-            
-            <p class="saudacao"></p>
-            
+            </div>            
+                <p class="saudacao"></p>
             <div class="btn-menu">
                 <button onclick="darkMode()">Modo noturno!</button>
-                <button>☰</button>
+                    <button>☰</button>
             </div>
         </div>
     </header>
 
     <main>
-
         <section class="banner">
             <div class="button-arrow -left">
                 <img  src="img/arrow-left.svg" alt="Retroceder">
@@ -47,8 +44,8 @@
                 <img src="img/Rectangle6.svg" alt="oferta" class="img-oferta">
                 <div class="descricao">
                     <div class="valor">
-                     <strong class="preco">$ 1.200 </strong>
-                        <button class="tag -verde"> New </button>
+                        <strong class="preco">$ 1.200 </strong>
+                            <button class="tag -verde"> New </button>
                     </div>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident quasi est deleniti vero fugiat praesentium molestiae corporis nulla, nemo beatae necessitatibus quas labore? Voluptatem laborum tempora quo maiores excepturi? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum necessitatibus nihil quis possimus ad reprehenderit expedita quo eveniet, vel, voluptate tempora quaerat? Ipsum non dolor laudantium voluptates beatae mollitia aperiam?</p>
                 </div>
@@ -58,8 +55,8 @@
                 <img src="img/Rectangle7.svg" alt="oferta" class="img-oferta">
                 <div class="descricao">
                     <div class="valor">
-                     <strong class="preco">$ 2.000 </strong>
-                        <button class="tag -laranja"> Sale </button>
+                        <strong class="preco">$ 2.000 </strong>
+                            <button class="tag -laranja"> Sale </button>
                     </div>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident quasi est deleniti vero fugiat praesentium molestiae corporis nulla, nemo beatae necessitatibus quas labore? Voluptatem laborum tempora quo maiores excepturi? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum necessitatibus nihil quis possimus ad reprehenderit expedita quo eveniet, vel, voluptate tempora quaerat? Ipsum non dolor laudantium voluptates beatae mollitia aperiam?</p>
                 </div>
@@ -80,6 +77,21 @@
                 <h3 class="classic">Classic</h3>
             </article>
         </section>
+        
+    <section class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+                <form action="" id="form_contact">
+                    <input type="text" name="nome" id="input_nome" placeholder="Name">
+                    <input type="email" name="email" id="input_email" placeholder="Email">
+                    <input type="telefone" name="telefone" id="input_telefone" placeholder="Phone">
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+
+                    <strong id="error"></strong>
+                        <button type="submit" id="btn-submit-contact">Send</button>
+                </form>
+        </div>
+    </section>
     </main>
 
     <footer>
