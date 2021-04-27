@@ -294,24 +294,25 @@ form button:hover{
     display: none;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .modal{
-    background-color: white;
-    width: 60%;
+    background-color: #333333e7;
+    width: 20%;
     min-width: 300px;
-    padding: 40px;
+    padding: 20px;
 }
 
 .close-btn {
     font-size: 28px;
     font-weight: bold;
-    color: var(--cinzaTexto);
+    color: white;
     border: none;
 }
 
 .close-btn:hover {
-    color: var(--preto);
+    color: #797676;
     cursor: pointer;
 }
 
@@ -326,6 +327,24 @@ form button:hover{
     color: #fff;
     border: none;
     border-radius: 15px;
-    font-size: 10px;
+    font-size: 16px;
     cursor: pointer;
+}
+
+.modal form {
+    width: 300px;
+    max-width: 100%;
+    margin: 10px auto;
+}
+
+.modal form input,
+.modal form textarea {
+    width: 300px;
+    max-width: 100%;
+    margin: 5px auto;
+    text-align: center;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 16px;
+    border: 1.5px solid grey;
+    background-color: white;
 }
